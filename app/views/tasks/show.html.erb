@@ -3,3 +3,4 @@
 <p> <%=@task.description%> </p>
 
 <%= link_to "Back to all tasks", root_path %>
+<%= link_to "delete", task_path(@task), method: :delete %>
